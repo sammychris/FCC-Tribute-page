@@ -1,2 +1,2 @@
-# Henry Ford-Tribute-page
+# Henry Ford's Tribute page
 This is a tribute page for Henry Ford

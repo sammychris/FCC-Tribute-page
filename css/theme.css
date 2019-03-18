@@ -1,0 +1,128 @@
+body {
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+}
+
+h2, footer, span {
+  text-align: center;
+}
+hr {
+  border-top: 1px solid #eee;
+  margin-bottom: 20px;
+}
+header #navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: #1e1f26;
+  opacity: 0.9;
+  min-height: 50px;
+  width: 100%;
+}
+header #navbar ul { 
+  list-style-type: none;
+  display: flex;
+  justify-content: center; 
+}
+
+header #navbar ul li a {
+  text-decoration: none; 
+  padding: 5px;
+  margin: 15px;
+  font-size: 18px;
+  color: white;
+}
+
+#main {
+  margin: 100px auto;
+  max-width: 1000px;
+}
+
+#main header {
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 15px;
+}
+
+#main header #title {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+#main header p {
+  font-size: 16px;
+}
+
+#main #tribute-info {
+  padding: 10px;
+  background-color: #eee;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+}
+#main #img-div {
+  float:left;
+  width:35%;
+  margin-right: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+#main #img-div img{
+  border-radius: 2px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+#main section h2 {
+  margin-top: 50px;
+}
+
+#main section span {
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  header #navbar ul { 
+    flex-wrap: wrap;
+  }
+  
+  #main {
+    margin: 120px auto;
+  }
+  
+  #main #img-div {
+    width:350px;
+  }
+  
+  #main section h2 {
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 709px) {
+  #main {
+    margin: 150px auto;
+  }
+  #main #img-div {
+    width: 100%;
+    float: none;
+  }
+  
+  #main section h2 {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 397px) {
+  #main {
+    margin: 200px auto;
+  }
+  
+  #main section h2 {
+    margin-top: 150px;
+  }
+}
